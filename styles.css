@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-div{
+    width: 100%;
+    height: 70px;
+    border: none;
+    background: red;
+    position: fixed;
+    unicode-bidi: isolate;
+    overflow: hidden;
+    box-shadow: 0 1px 3px;
+}
+.home{
+    font-size: 20 px
+    padding-bottom: 10px;
+    font-style: sans-serif;
+    border:2px solid white;
+    border-width: 50px;
+    background: white;
+    text-align: center;
+   
+    
+}
+.Linko{
+   font-size: 18px;
+   font-style:lato sans-serif; 
+   padding-left: 100px;
+   padding: 20px;
+   color: white;
+
+}
+.banner-div{
+    width: 100%;
+    height: 580px;
+    border: 2px solid black;
+    background-color: red;
+    
+    
+}
+.anchorsection{
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+    
+}
+.Lorem{
+    font-size:36px;
+    margin-left: 150px;
+    padding-top:80px;
+}
+.p1{
+    font-size:17px ;
+    padding-left: 0%;
+    padding-bottom: 0;
+    margin-left: 85px;
+    white-space: pre-wrap;
+}
+.p2{
+    font-size: 13px;
+    padding-left:0% ;
+    padding-bottom: 0%;
+    margin-left: 70px;
+    white-space: pre-wrap;;
+}
+.anchorsection-icon{
+    color:orangered;
+   margin-top: 0px;
+   
+}
+.fa{
+    font-size: 190px;
+    margin-left: 65%;
+    display:flex;
+    justify-self: end;
+    position: absolute;
+    bottom:-320px;
+}
+.Qoute{
+    width: 100%;
+    height: 200px;
+    border: 2px 
+}
+.mugsection-text{
+    width: 100%;
+    height: 600px;
+    border: 1px solid black;
+}
+.footer{
+    width: 100%;
+    height: 250px;
+    border: 1px solid black;
+}
