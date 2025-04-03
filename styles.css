@@ -7,7 +7,7 @@
     width: 100%;
     height: 50px;
     border: none;
-    background: red;
+    background: #f44336;
     position: fixed;
     unicode-bidi: isolate;
     overflow: hidden;
@@ -35,14 +35,14 @@
     width: 100%;
     height: 580px;
     border: 2px solid black;
-    background-color: red;
+    background-color: #f44336;
     
     
 }
 .anchorsection{
     width: 100%;
     height: 500px;
-    border: 1px solid black;
+    
     display: flex;
     
 }
@@ -91,16 +91,12 @@
     text-align: center;
     padding-top: 70px;
 }
-.mugsection-text{
-    width: 100%;
-    height: 600px;
-    border: black;
-}
+
+
 .footer{
     width: 100%;
     height: 250px;
     border: 1px solid black;
-}
 
 .iconss{
     text-align: center;
@@ -145,64 +141,4 @@ opacity: 0.5;
     color: black;
 }
 
-.Mug{
-    border: 4px solid purple;
-    height: 100px;
-    width: 100%;
-}
-.mugsec{
-    width: 100%;
-    height: 680px;
-    border: 1px solid black;
-    display: flex;
-    background-color: #f1f1f1;
-    
 
-}
-.mugsection h1{
-font-size:20px;
-margin-top: 35px;
-text-align: center;
-
-}
-.mugsection h2{
-  font-size: 35px; 
-  text-align: center;
-  width: 45%;
-  margin: 0 auto;
-  padding: 20px;
-  overflow-wrap: break-word;
-  
-}
-.mugsection h3{
-    font-size: 50px;
-    text-align: center;
-    width: 40%;
-    padding: 20px;
-    overflow-wrap: break-word;
-    margin-left: 50%;
-}
-.mug {
-   font-size: 300px !important;
-    margin: 0 20px !important;
-
-}
-.footer i{
-    font-size: 24px;
-    margin: 0 15px;
-}
-.footer p{
-    text-align: center;
-
-   
-}
-.mugflex{
-    display: flex;
-   /* flex-direction: column;
-    align-items: center; 
-}
- .textflex{
-   /* display: flex;
-    flex-direction: column;
-    align-items: center;*/
-} 
