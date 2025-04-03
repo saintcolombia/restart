@@ -7,7 +7,7 @@
     width: 100%;
     height: 50px;
     border: none;
-    background:#f44336;
+    background: #f44336;
     position: fixed;
     unicode-bidi: isolate;
     overflow: hidden;
@@ -36,14 +36,15 @@
     width: 100%;
     height: 580px;
     border: 2px solid black;
-    background-color: red;
+    background-color: #f44336;
     
     
 }
 .anchorsection{
     width: 100%;
     height: 500px;
-    border: 1px solid black;
+    
+    display: flex;
     
 }
 .Lorem{
@@ -76,6 +77,7 @@
     display:flex;
     justify-self: end;
     position: absolute;
+    bottom:-320px;
     margin-top: -23%;
 }
 .Qoute{
@@ -90,13 +92,52 @@
     text-align: center;
     padding-top: 70px;
 }
-.mugsection-text{
-    width: 100%;
-    height: 600px;
-    border: black;
-}
+
+
 .footer{
     width: 100%;
     height: 250px;
     border: 1px solid black;
+
+.iconss{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
+}
+.Media:hover{
+opacity: 0.5;
+}
+.Media{
+  display: block inline;  
+}
+.banner-div h1{
+    font-size: 50px;
+    font-weight: 100;
+    margin-top: 150px;
+    color: white;
+    text-align: center;
+ 
+}
+.banner-div p{
+    font-size: 25px; 
+    font-weight: 10;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+.banner-div button{
+    font-size: 20px;
+    font-weight: 10;
+    text-decoration-color: white;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+}
+.banner-div button:hover{
+    background-color: gray;
+     color: black;
 }
