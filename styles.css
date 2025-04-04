@@ -11,7 +11,7 @@
     position: fixed;
     unicode-bidi: isolate;
     overflow: hidden;
-    box-shadow: 0 3px 9px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
 }
 .home{
     font-size: 16px;
@@ -20,6 +20,7 @@
     border-width: 29px;
     text-wrap: balanced;
     background: white;
+    hover: white;
 }
 .Linko{
    font-size: 16px;
@@ -28,16 +29,14 @@
    padding:10px;
    color: white;
    text-decoration: none;
-   text-wrap: balanced;
+   vertical-align: middle;
 
 }
 .banner-div{
     width: 100%;
     height: 580px;
     border: 2px solid black;
-    background-color: #f44336;
-    
-    
+    background-color: #f44336;   
 }
 .anchorsection{
     width: 100%;
@@ -66,13 +65,13 @@
     white-space: pre-wrap;
 }
 .anchorsection-icon{
-    color:orangered;
+    color: #f44336;
    margin-top: 0px;
    
 }
 .fa{
     font-size: 190px;
-    margin-left: 65%;
+    margin-left: 10%;
     /* display:flex; */
     /* justify-self: end; */
     /* position: absolute; */
@@ -82,7 +81,7 @@
 .Qoute{
     width: 100%;
     height: 200px;
-    background-color:  black;
+    background-color: grey;
 }
 .pq{
     color: white;
@@ -91,8 +90,11 @@
     text-align: center;
     padding-top: 70px;
 }
-
-
+.mugsection-text{
+    width: 100%; 
+    height: 600px;
+    border: black;
+}
 .footer{
     width: 100%;
     height: 250px;
