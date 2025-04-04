@@ -1,8 +1,3 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 .navbar-div{
     width: 100%;
     height: 50px;
@@ -11,39 +6,38 @@
     position: fixed;
     unicode-bidi: isolate;
     overflow: hidden;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+    box-shadow: 0 3px 9px;
 }
 .home{
-    font-size: 22px;
+    font-size: 16px;
     text-decoration: none;
-    border: 2px solid white; 
-    border-width: 20px;
+    border: 2px solid white;
+    border-width: 29px;
     text-wrap: balanced;
     background: white;
-    hover: white;
 }
 .Linko{
-   font-size: 18px;
+   font-size: 16px;
    font-style:lato sans-serif; 
    padding-left: 100px;
    padding:10px;
    color: white;
    text-decoration: none;
-   vertical-align: middle;
+   text-wrap: balanced;
 
 }
 .banner-div{
     width: 100%;
     height: 580px;
     border: 2px solid black;
-    background-color: #f44336 ;
+    background-color: #f44336;
     
     
 }
 .anchorsection{
     width: 100%;
     height: 500px;
-    border: 1px solid black;
+    
     display: flex;
     
 }
@@ -67,13 +61,13 @@
     white-space: pre-wrap;
 }
 .anchorsection-icon{
-    color: #f44336;
+    color:orangered;
    margin-top: 0px;
    
 }
 .fa{
     font-size: 190px;
-    margin-left: 10%;
+    margin-left: 65%;
     /* display:flex; */
     /* justify-self: end; */
     /* position: absolute; */
@@ -83,7 +77,7 @@
 .Qoute{
     width: 100%;
     height: 200px;
-    background-color: grey;
+    background-color:  black;
 }
 .pq{
     color: white;
@@ -92,13 +86,182 @@
     text-align: center;
     padding-top: 70px;
 }
-.mugsection-text{
-    width: 100%; 
-    height: 600px;
-    border: black;
+
+
+
+.iconss{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
+}
+.Media:hover{
+opacity: 0.5;
+}
+.Media{
+  display: block inline;  
+}
+.banner-div h1{
+    font-size: 50px;
+    font-weight: 100;
+    margin-top: 150px;
+    color: white;
+    text-align: center;
+ 
+}
+.banner-div p{
+    font-size: 25px; 
+    font-weight: 10;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+.banner-div button{
+    font-size: 20px;
+    font-weight: 10;
+    text-decoration-color: white;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+}
+.banner-div button:hover{
+    background-color: gray;
+    color: black;
 }
 .footer{
     width: 100%;
     height: 250px;
     border: 1px solid black;
+    background-color:  white;
+    align-items: center; 
+    padding: 64px;
+    float: left;
+}
+.mugflex{
+    width: 100%;
+    height: 60vh;
+    align-items: center;
+    display: flex;
+}
+
+
+.textflex{
+    width: 100%;
+    /* height: 20vh; */
+    background-color: #f1f1f1;
+
+    
+    /* height: 10vh; */
+}
+/* h2{
+    
+margin-bottom: 200p;
+} */
+.textflex h1{
+    text-align: start;
+    margin-right: 10px ;
+    margin-bottom: 80px;
+    white-space: prewrap;
+    
+}
+
+.mug {
+        font-size: 100px !important;
+        margin: 0px 16px 0px 0px !important;
+   padding: 120px 150px 120px 150px; 
+    }
+    .footer i{
+        font-size: 24px;
+        margin: 0 15px;
+    }
+
+ .textflex p{
+    font-family: Verdana,  sans-serif;
+    font-size: 17px; 
+    width: 90%;
+    margin: 10px 0px;
+    padding: 35px 45px;
+    overflow-wrap: break-word;
+margin-bottom: 10px;
+text-align: start;
+color: black;
+ }
+ 
+ .textflex p{
+    font-size: 17px;
+    text-align: start;
+    width: 90%;
+    padding: 20px;
+    overflow-wrap: break-word;
+    color: #757575;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    /* text-align: left; */
+    
+ }
+ .link{
+    text-align: center;
+ }
+ 
+
+.Mug{
+    border: 4px solid purple;
+    height: 100px;
+    width: 100%;
+    
+}
+.mugsec{
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+
+.textflex h2{
+  font-size: 15px; 
+  text-align: center;
+  /* width: 45%; */
+  /* margin: 0 auto; */
+  padding: 20px;
+  overflow-wrap: break-word;
+  
+}
+.textflex h3{
+    font-size: 50px;
+    text-align: center;
+    /* width: 40%; */
+    /* padding: 20px; */
+    overflow-wrap: break-word;
+    /* margin-left: 50%; */
+}
+.mug {
+   font-size: 180px !important;
+    margin: 20px 20px !important;
+
+}
+.footer i{
+    font-size: 24px;
+    margin: 0 15px;
+}
+.footer p{
+    text-align: center;
+
+   
+}
+.mugflex{
+    display: flex;
+   /* flex-direction: column;
+    align-items: center; 
+}
+ .textflex{
+   /* display: flex;
+    flex-direction: column;
+    align-items: center;*/
 }
